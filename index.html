@@ -22,11 +22,11 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="bg-dark">
+  <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">
+        <a class="navbar-brand" href="index.html">
           <img src="logo.png" alt="logo" width="40" height="34" />
         </a>
         <button
@@ -41,7 +41,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html"
                 >Home</a
@@ -56,31 +56,10 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Menu
-              </a>
-              <ul
-                class="dropdown-menu dropdown-menu-dark"
-                aria-labelledby="navbarDarkDropdownMenuLink"
-              >
-                <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="about.html">About Us</a></li>
-                <li><a class="dropdown-item" href="fellowMembers.html">Fellow Members</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
                 Events
               </a>
               <ul
-                class="dropdown-menu dropdown-menu-dark"
+                class="dropdown-menu dropdown-menu-lg-end dropdown-menu-white"
                 aria-labelledby="navbarDarkDropdownMenuLink"
               >
                 <li><a class="dropdown-item" href="eventStem.html">STEM programme</a></li>
@@ -97,6 +76,11 @@
               </ul>
             </li>
             <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="gallery.html"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="research.html"
                 >Research</a
               >
@@ -108,7 +92,7 @@
 
     <!-- Main Card -->
     <div
-      class="card text-white bg-dark mb-3 mx-auto text-center"
+      class="card bg-white mb-3 mx-auto text-center border-0"
       style="max-width: 27rem"
     >
       <div class="card-body">
@@ -134,6 +118,74 @@
       </div>
     </div>
 
+    <!-- Fello members Main Card -->
+    <div class="card  mb-3 mx-auto  text-center border-0" style="max-width: 70rem;">
+      <div class="card-body">
+         
+        <h5 class="card-title border-0">Fellow Members</h5>
+        <br> 
+        <div class="card mb-3 border-0 mx-auto>
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <!-- Three columns of text below the carousel -->
+  <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h5 class="pb-3">Dr. S. Malarvizhi</h5>
+        <p>Professor of ECE.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h5 class="pb-3">Dr. Revathi Venkatraman </h5>
+        <p>Chairperson of School of Computing .</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h5 class="pb-3">Dr. Shanthanu Patil </h5>
+        <p>Head of Department of Translational-Medicine-And-Research and  Associate Director, Innovation, Incubation & Entrepreneurship Center SRM IST.</p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vision Main Card -->
+    <div class="card mb-3 border-0 mx-auto  text-center" style="max-width: 70rem;">
+      <div class="card-body">
+         
+        <h5 class="card-title">Vision of Xilinx NEXUS</h5>
+        <br>
+        <p>The goal of the prgram is to increase the representation, participation and entrepreneurial skills and abilities of women in Technology focused careers.</p>
+        <br>
+        
+      </div>
+    </div>
+
+    <!-- Vision Main Card -->
+    <div class="card mb-3 border-0 mx-auto  text-center" style="max-width: 70rem;">
+      <div class="card-body">
+         
+        <h5 class="card-title">MISSION of Xilinx NEXUS</h5>
+        <br>
+        <ul style="text-align:left">
+      <li><h4>Educate Students through STEM programmes to integrate them into a cohesive learning paradigm based on real world applications.</h4></li>
+        <br />
+        <br />
+      <li>
+        <h4>Develop new skill sets through mentorship events through seminars and workshops.</h4>
+      </li>
+      <br />
+      <br />
+      <li><h4>Steer girl students in the direction of the research and development for the benefit of women folk.</h4></li>
+    </ul>
+        
+      </div>
+    </div>
+
     <!-- foooter       -->
     <div class="container">
       <footer
@@ -149,7 +201,7 @@
       >
         <div class="d-flex align-items-center">
           <a
-            href="/index.html"
+            href="index.html"
             class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
           >
             <img src="logo.png" alt="logo" width="40" height="34" />
